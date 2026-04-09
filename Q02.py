@@ -15,3 +15,8 @@
 # Sample Output 2:  1900 is not a leap year
 
 # --- YOUR CODE HERE ---
+num=int(input("Enter a year:"))
+if(num%4==0 and num&100==0) or (num%400==0) :
+  print(num," is a leap year")
+else :
+ print(num," is not a leap year")

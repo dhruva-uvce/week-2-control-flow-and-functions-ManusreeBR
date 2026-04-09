@@ -12,3 +12,8 @@
 # Sample Output 2:  0! = 1
 
 # --- YOUR CODE HERE ---
+n=int(input("Enter a number: "))
+fac=1
+      for i in range (1,n+1):
+         fac*=i
+print(n,"! = ",fac)
